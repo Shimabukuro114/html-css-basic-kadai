@@ -14,12 +14,13 @@ main {
 }
 #parent {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  flex-direction: column;
 }
 .contents {
-  border: 3px, solid, rgb(238, 204, 204);
+  border: 3px solid rgb(238, 204, 204);
   flex-basis: 25%;
-  margin: 10px 15px 10px 15;
+  margin: 10px 15px 10px 15px;
   padding: 20px 0 20px 0;
   text-align: center;
 }
